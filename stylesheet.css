@@ -1,0 +1,114 @@
+.body{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  font-style: Times New Roman;
+}
+
+.frame {
+  float: left;
+  left:0;
+  bottom:15;
+    width: 1900px;
+    height: 1100px;
+    position: absolute;
+    /* The points are: centered top, left bottom, right bottom */
+    clip-path: polygon(0 0%, 0 55%, 35% 30%);
+
+}
+ #rightlogo {
+float: right;
+ margin: 0 0 0 15px;
+}
+.form{
+  float: right;
+  position: relative;
+  left:0;
+  bottom:15;
+  font-family: Times New Roman;
+  font-size: 12pt;
+}
+
+.active
+{
+  text-decoration:none;
+  color: #00918e;
+  position: absolute;
+  padding-bottom: 10px;
+  border-left: 10px;
+  overflow:hidden;
+  border-bottom: 3px solid #00918e;
+  color: black;
+}
+
+
+.form input[type="text"],
+.form input[type="password"] {
+	display: block;
+	margin-bottom: 5px;
+	width: 100%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 5px 0px;
+	font-size: 12pt;
+}
+.form input[type="checkbox"]{
+  margin-bottom: 10px;
+  width: 5%;
+}
+
+
+.form input[type="submit"] {
+
+	padding: 10px 50px;
+  cursor: pointer;
+
+  width:100%;
+}
+.download{
+  text-decoration: underline;
+  top:105%;
+  width: 14%;
+  font-size: 15pt;
+
+  color: #942b5f;
+  text-align: right;
+  position: absolute;
+}
+
+.footer {
+	position: absolute;
+	top:90%;
+	right: -15px;
+  width: 21%;
+  font-size: 19pt;
+	float: inherit;
+	padding: 20px;
+}
+ul {
+	list-style:none;
+  margin-left: -80px;
+}
+
+ul li {
+	float:left;
+	margin-right: 40px;
+
+}
+li a
+{
+  font-size: 15px;
+  margin-left:-5px;
+}
+li
+{
+
+  margin-left: -20px;
+  font-size: 15px;
+}
+a
+{
+	text-decoration:none;
+	color: #00918e;
+
+}
